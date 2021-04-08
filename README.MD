@@ -3,6 +3,7 @@
 ## Dataset
 We use CIFAR-10 and CIFAR-100.
 Download link:
+
 CIFAR10:
 https://drive.google.com/file/d/1Mbt4tac_T3eyk2pwAIi1Qs2V4Bl0EZpN/view?usp=sharing
 
@@ -30,6 +31,7 @@ Divide = DivideMix - GMM
 
 The following requires GPU to run
 |Item | Comments|
+| --- | --- |
 |Divide + HMM| |
 |Divide + CRF (Maybe)| | 
 |Divide + CRF + LSTM (Maybe) |
@@ -38,6 +40,7 @@ The following requires GPU to run
 
 Others:
 |TODO|Tool|
+| -- | -- |
 |Visualize loss curve of different methods|matplotlib|
 |Visualize features of each method|scikit-learn manifold tsne|
 |Visualize some samples (Maybe)||
