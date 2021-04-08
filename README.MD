@@ -12,6 +12,7 @@ https://drive.google.com/file/d/1Ku_2_S3aJW7eQqQ8bi25vK_bokK4_L9l/view?usp=shari
 ## Run
 **.py** contains implementation of corresponding method, to run them with prefixed hyper-parameters, use **.sh** files in scripts.
 |Method|.py|sh folder|
+| --- | --- | --- |
 |Cross-Entropy|train_ce.py|ce|
 |Cross-Entropy + Entropy |ce_ent|
 |DivideMix - GMM (random sample selection)|train_randommix.py|random_mix|
@@ -28,6 +29,7 @@ where 0 is the GPU id.
 Divide = DivideMix - GMM
 
 The following requires GPU to run
+|Item | Comments|
 |Divide + HMM| |
 |Divide + CRF (Maybe)| | 
 |Divide + CRF + LSTM (Maybe) |
