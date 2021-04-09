@@ -33,8 +33,8 @@ The following requires GPU to run
 |Item | Comments|
 | --- | --- |
 |Divide + HMM| |
-|Divide + CRF (Maybe)| | 
-|Divide + CRF + LSTM (Maybe) |
+|~~Divide + CRF (Maybe)~~|Supervised model, not doable| 
+|~~Divide + CRF + LSTM (Maybe)~~|supervised model , not doable|
 |CE + Knowledge Graph (Maybe)| |
 |CE + Negative Labeling + Knowledge Graph (Maybe)||
 
